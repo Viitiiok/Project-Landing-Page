@@ -1,0 +1,121 @@
+*{ 
+   padding: 0;
+   margin: 0;   
+   box-sizing: border-box;
+}
+
+body {
+   font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/*--------------------------------*/
+
+.header_1 {
+   display: flex;
+   position: relative;
+   justify-content: space-between;
+   align-items: center;
+   height: 100px;
+   background-color: #003249;
+   border-bottom: 0.2em solid #1C558E;
+}
+
+.logo {
+   font-size: xx-large;
+   color: #e6fdfd;
+   font-weight: 900;
+   margin-left: 4em;
+   margin-right: 4em;
+}
+
+.header_1 .links {
+   display: flex;
+   list-style-type: none;
+   text-decoration: none;
+}
+
+.header_1 ul li {
+   margin-right: 80px;
+   padding-right: 2em;
+   font-size: 23px;
+   font-weight: 800;
+}
+
+.header_1 a {
+   text-decoration: none;
+   color: #e6fdfd;
+}
+
+/*--------------------------------*/
+
+.header_2 {
+   display: flex;
+   height: 600px;
+   min-width: auto;
+   background-color: #003249;
+   justify-content: space-around;
+   align-items: center;
+   border-bottom: 0.2em solid #1C558E;
+}
+
+.header_2 .txt {
+   position: relative;
+   color: #e6fdfd; 
+   font-size: 20px; 
+   padding-right: 5em;
+   padding-left: 2em;
+   font-weight: 800;
+   margin: 0 3em 0;
+}
+
+.header_2 p {
+   margin: 1.2em 0 1.2em;
+}
+
+.blue_sea {
+   border-radius: 10px;
+   border: 3px solid #1C558E;
+   padding: 2px;
+   width: 600px;
+   align-self: center;
+   float: right;
+   margin-right: 6em;
+}
+
+.header_2 .colors {
+   align-items: center;
+   background-image: linear-gradient(150deg,#0574a2, #023e8a,#124680);
+   border: 0;
+   border-radius: 8px;
+   box-sizing: border-box;
+   color: #e6fdfd;
+   font-size: 18px;
+   justify-content: center;
+   line-height: 1.5em;
+   max-width: 100%;
+   min-width: 150px;
+   padding: 8px;
+   text-decoration: none;
+   cursor: pointer;
+   white-space: nowrap;
+}
+
+/*--------------------------------*/
+
+.header_3 {
+   position: relative;
+   height: 600px;
+   background-color: #003249;
+   flex-wrap: wrap;
+}
+
+
+.header_3 h1 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #e6fdfd;
+   padding-top: 1.3em;
+   padding-bottom: 1.3em;
+}
+
