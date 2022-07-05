@@ -133,7 +133,7 @@ body {
 
 .header_3 {
    position: relative;
-   height: 750px;
+   height: auto;
    background-color: #003249;
    border-bottom: 0.3em solid #1C558E;
 }
@@ -179,7 +179,7 @@ body {
    flex-direction: row;
    flex-wrap: wrap;
    max-width: 100%;
-   margin: 0em 4em 0em;
+   margin: 0em 4em 8em;
 }
 
 /*--------------------------------*/
